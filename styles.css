@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  margin: 7% 15%;
+}
+
+p {
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Shadows Into Light', sans-serif;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: 'Shadows Into Light', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: arial, sans-serif;
+  color: #40514E;
+}
+
+hr {
+  border-width: 4px;
+  border-style: groove none none none;
+  border-color: #40514E;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding: 100px 0 150px 0;
+}
+
+.middle-container {
+  background-color: #66bfbf;
+  padding: 100px 0 50px 0;
+}
+
+.second-middle-container {
+  background-color: #EAF6F6;
+  padding: 75px 0 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 50px;
+  margin-top: 50px;
+}
+
+.my-skills-line {
+  margin-top: 0;
+  padding-top: 50px;
+}
+
+.skill-row {
+  margin: 50px auto 100px auto;
+  width: 45%;
+  text-align: left;
+}
+
+.skill-mares {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.skill-moon {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 100%;
+}
+
+.intro {
+  width: 75%;
+  /*this caused the line to align left*/
+  margin: auto;
+  /*this made the line center again*/
+  color: #40514E;
+  padding-top: 50px;
+}
+
+.hello-pic {
+  width: 25%;
+  margin-top: 75px;
+  border-radius: 100%;
+}
+
+.contact-me {
+  width: 75%;
+  margin: 40px auto 60px;
+  padding: 50px 0;
+}
+
+.opportunity {
+  padding-bottom: 50px;
+}
+
+.top-hr {
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+
+.resume-h2 {
+  color: #40514E;
+  font-family: arial, sans-serif;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.resume-h3 {
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+
+.resume-farm-name {
+  /* text-indent: 10%; */
+  font-size: 1.5rem;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+.resume-footer {
+  background-color: #66BFBF;
+  padding: 50px 0 16px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+.resume-body {
+  background-color: #eaf6f6;
+  text-align: left;
+}
+
+.education-name {
+  text-decoration: underline;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 15px;
+  /*  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;*/
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4ED);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4ED);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4ED);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4ED);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4ED);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+  margin: 10px 25px;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+/*or
+a {
+color: #11999e;
+margin: 10px 25px;
+text-decoration: none;
+}
+
+a:hover {
+color: #EAF6F6
+}
+*/
+.copyright {
+  color: #EAF6F6;
+  padding: 20px 0;
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
+/* hr {
+  width: 15%;
+  border-color: #66bfbf;
+  border-width: 8px;
+  border-style: dotted none none none;
+  margin: 120px auto 100px auto; */
+/* or
+  border: dotted #EAF6F6 8px;
+  border-bottom: none;
+  width: 15%;
+  margin: 100px auto;
+ } */
+
+ /*.top-cloud {
+   position: absolute;
+   top: 50px;
+   right: 300px;
+ }
+
+ .bottom-cloud {
+   position: absolute;
+   left: 300px;
+   bottom: 300px;
+ }*/
